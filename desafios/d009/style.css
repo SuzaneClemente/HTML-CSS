@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+body{
+    background-color:rgb(29, 23, 23);
+
+}
+h1{
+    color: blanchedalmond;
+}
+body {
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+

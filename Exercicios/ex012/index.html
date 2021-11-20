@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html</title>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplismente aumente i tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html5</p>
+    <audio preload="metadata" controls  loop>
+        <source src="midia/Sky Map - Reed Mathis.mp3" type="audio/mpeg">
+        <source src="midia/Sky Map - Reed Mathis.ogg" type="audio/ogg">
+        <source src="midia/Sky Map - Reed Mathis.wav" type="audio/wav">
+    </audio>
+
+    <hr>
+    <audio src="midia/Banish Misfortune - Nat Keefe & Hot Buttered Rum.mp3" autoplay controls></audio>
+    <!--compativel com formato mp3 ogg wav-->
+</head>
+<body>
+    
+</body>
+</html>
