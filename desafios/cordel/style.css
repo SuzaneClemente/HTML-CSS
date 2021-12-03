@@ -1,11 +1,41 @@
 @charset "utf-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
 }
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -13,20 +43,38 @@ p {
     text-align: left;
     line-height: 2em;
 }
-.p2 {
-    
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+.imagem1 {
+    background-color: rgba(0, 0, 0, 0.296);
     background-attachment: fixed;
     color: white;
     background-image: url("imagens/background001.jpg")
 }
-.p4 {
+
+.imagem {
+    background-color: rgba(0, 0, 0, 0.357);
     background-attachment: fixed;
     background-image: url("imagens/background002.jpg");
+}
+
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.254);
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
