@@ -16,6 +16,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         .num {
@@ -34,6 +35,12 @@
             background-color: lightgray;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(75, 70, 70);
+        }
+
         thead, tfoot {
             background-color: grey;
             color: white;
@@ -41,6 +48,10 @@
 
         tbody > tr:nth-child(2n) {
             background-color: lightgray;
+        }
+        p {
+            text-align: justify;
+            width: 400px;
         }
     </style>
 </head>
@@ -106,6 +117,30 @@
                 <td>Santa Catarina</td>
                 <td class="num">7 338 473	</td>
             </tr>
+            <tr>
+                <td>pernambuco</td>
+                <td>5 444 576</td>
+            </tr>
+            <tr>
+                <td>sergipe</td>
+                <td>9 555 333</td>
+            </tr>
+            <tr>
+                <td>acre</td>
+                <td>3 333 333</td>
+            </tr>
+            <tr>
+                <td>maranhao</td>
+                <td>3 333 444</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td>6 789 098</td>
+            </tr>
+            <tr>
+                <td>rondonia</td>
+                <td>4 324 567</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -114,5 +149,6 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla consequuntur praesentium nesciunt expedita saepe nisi illo repellat eveniet. Veniam rerum fuga aliquam voluptatem necessitatibus nostrum, culpa aut repellat vero vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore sapiente facilis quasi! Vero repellat quidem perferendis itaque labore expedita, obcaecati temporibus nisi accusantium non! Recusandae doloremque tempore adipisci eligendi?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eligendi hic, a consectetur rerum atque tenetur aliquid natus consequuntur, quos qui quo iste. Quisquam, sequi laboriosam perspiciatis cumque deleniti omnis?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam odio at sint reiciendis explicabo cumque autem id necessitatibus. Saepe, pariatur aut? Soluta libero quisquam repudiandae explicabo deserunt adipisci iure. Error!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga animi tenetur quae, itaque a soluta sunt aut neque odit nesciunt quidem at ex tempore, beatae, consequatur id incidunt eaque corrupti?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consectetur eveniet placeat dignissimos quia at, alias suscipit rem ad in! Eum quaerat magnam dolorem maxime dolore voluptatem debitis dicta pariatur.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, impedit quis. Inventore harum voluptatibus quasi ex alias beatae quibusdam earum, ad facere officiis! Debitis natus laudantium voluptatibus, nulla corrupti rerum.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima corrupti nemo sed nulla libero et ipsum veniam quidem perferendis iusto. Incidunt, dicta fugiat. Unde error fuga voluptates ratione iure atque.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nemo, eligendi molestias obcaecati nam ea sit nobis, laborum reiciendis, culpa animi provident blanditiis repudiandae distinctio! Totam quos aut soluta fuga!</p>
 </body>
 </html>
